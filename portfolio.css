@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(133, 5, 5);
+ font-family: 'Poppins', sans-serif;
+ color: #fff;
+}
+
+nav{
+    background-color: rgb(244, 167, 167);
+    display: flex;
+    text-align:center;
+    justify-content: space-around;
+    height: 40px;
+}
+nav .left{
+    margin: 8px;
+    padding: 3px;
+    font-size: 1.5rem;
+    color:rgb(67, 3, 3);
+}
+nav .right{
+    margin: 5px;
+    padding: 3px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+nav ul li {
+    color: black;
+    margin:0 10px;
+    list-style:none;
+ 
+  
+}
+nav ul li a{
+ color: red;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(96, 2, 2);
+    font-size: 1.2rem;
+}
+ nav .media-icons{
+    width: 5%;
+    columns: blue;
+    display: flex;
+    align-items: center;
+margin: 10px;
+    padding:0px;
+ }
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin:20px;
+}
+.firstleft{
+    width:30%;
+    font-size: 4rem;
+  
+
+}
+.small{
+    font-size: 20px;
+}
+.firstright{
+    width: 30%;
+}
+.firstright img{
+    width: 550px;
+    height: 80vh;
+}
+.pink{
+    color: rgb(250, 105, 129);
+}
+#element{
+    color:rgb(250, 105, 129);
+}
+.hr{
+    color: rgb(74, 20, 20);
+    margin: 90px;
+    border:3px solid  rgb(74, 20, 20); 
+
+}
+#Contact{
+    height: 80vh;
+    font-size: 3rem;
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+/* ///////////////////about//////////////// */
+
+#About{
+    height: 75vh;
+    font-size: 2.2rem;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.secondleft{
+    width:30%;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.secondright{
+width:40%;
+/* display:flex; */
+text-align: center;
+justify-content: center;
+}
+
+
+.secondleft img{
+    height: 400px;
+    margin-top: 60px;
+    
+}
+
+.rightTop h2{
+    color:rgb(250, 105, 129) ;
+    /* text-align: right; */
+    
+}
+.aboutDiscription{
+    color: pink;
+}
+
+.rightbottom a{
+    border: 2px solid rgb(248, 64, 94) ;
+    text-decoration: none;
+    color: pink;
+}
+
+/* /////////////////////SKILLS////////////////////////// */
+#Skills{
+    height: 75vh;
+    font-size: 2.2rem;
+}
+.third{
+    text-align: center;
+}
