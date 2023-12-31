@@ -67,7 +67,7 @@
 
     <script>
       var typed = new Typed("#element", {
-        strings: ["Web Developer.", "Frontend Developer.", " Web Designer."],
+        strings: [" Web Designer.", "Frontend Developer.", "Web Developer."],
         typeSpeed: 50,
       });
     </script>
@@ -140,8 +140,16 @@
     <div id="Contact">
       <center>
           <h1 class="pink">Contact</h1>
-          <p>Email : pbora1704@gmail.com</p>
-          <p>linkedin : Preeti Bora</p>
+          <!-- <p>Email : pbora1704@gmail.com</p> -->
+        
+          <form action="mailto:pbora1704@gmail.com" method="post" enctype="text">
+            <!-- FirstName: <input type="text" name="FirstName"> -->
+            send mail: <input type="text" name="Email">
+            <input type="submit" name="submit" value="Submit">
+          </form>
+          <span><label class="fa fa-linkedin-square">:</label><a href="https://www.linkedin.com/in/preeti-bora-a95a0b241/"
+            >Ping me here</a></span>
+          
       </center>
   </div>
   <footer class="footer">
